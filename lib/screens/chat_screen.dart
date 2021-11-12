@@ -10,8 +10,11 @@ class ChatScreen extends StatelessWidget {
         itemCount: 12,
         itemBuilder: (ctx, index) => Container(
           padding: const EdgeInsets.all(8),
+          decoration: BoxDecoration(
+            border: Border.all(color: Colors.grey),
+          ),
           child: const Text(
-            "This works",
+            "Test Git",
             style: TextStyle(
               color: Colors.yellow,
               fontSize: 20,
