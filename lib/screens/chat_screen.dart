@@ -7,7 +7,7 @@ class ChatScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: ListView.builder(
-        itemCount: 10,
+        itemCount: 12,
         itemBuilder: (ctx, index) => Container(
           padding: const EdgeInsets.all(8),
           child: const Text(
